@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #696969;
+}
+#heading{
+    width: 100%;
+    text-align: center;
+    font-size: 43px;
+    color: #fff;
+}
+#timer{
+    display: flex;
+    width: 100%;
+}
+#sub_timer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+#tim_msec , #tim_min , #tim_hour{
+    padding: 10px 30px;
+    font-size: 35px;  
+    color: #fff; 
+}
+#option{
+  width: 100%;
+  text-align: center; 
+  
+}
+#option1 , #option2 , #option3{
+    padding: 10px 20px;
+    color: #fff;
+} 
