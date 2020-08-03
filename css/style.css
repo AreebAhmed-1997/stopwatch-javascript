@@ -19,7 +19,7 @@
     justify-content: center;
 
 }
-#tim_msec , #tim_min , #tim_hour{
+#tim_msec , #tim_min , #tim_hour , #tim_sec{
     padding: 10px 30px;
     font-size: 35px;  
     color: #fff; 
