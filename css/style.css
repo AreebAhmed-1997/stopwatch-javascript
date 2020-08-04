@@ -32,4 +32,6 @@
 #option1 , #option2 , #option3{
     padding: 10px 20px;
     color: #fff;
+    border :0px;
+    outline: 0px;
 } 

@@ -22,5 +22,20 @@ function timer (){
         tim_sec=0
     }
 }
+function start () {
  interval = setInterval( timer , 10)
+}
  
+function pause (){
+    clearInterval (interval)
+}
+function stop(){
+    tim_msec = 0;  
+tim_sec = 0; 
+tim_min =0;
+tim_hour= 0;
+nummilsec.innerHTML  = tim_msec
+numsec.innerHTML  = tim_sec
+nummin.innerHTML  = tim_min
+pause()
+}
